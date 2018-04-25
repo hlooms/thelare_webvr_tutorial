@@ -11,7 +11,7 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 window.addEventListener('load', drawingRoom);
 
 var roomDrawing = vRViewPlayer('#second-vr-example', {
-  image: 'https://raw.githubusercontent.com/lare-student/thelare_webvr_tutorial/master/public/assets/hand-drawn-room.jpg',
+  image: 'https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/postimages/108579/photosphere-sample.jpg',
   is_stereo: false,
 });
 
