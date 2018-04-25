@@ -11,18 +11,6 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 
 window.addEventListener('load', drawingRoom);
 
-var roomDrawing = vRViewPlayer('#second-vr-example', {
-  image: 'https://q3fb03rfy3f4ahuzu2uy6e11-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/photosphere-android.jpg',
-  is_stereo: false,
-});
-
-window.addEventListener('load', roomDrawing);
-
-var boxRoomTemplate = vRViewPlayer('#third-vr-example', {
-  image: '',
-  is_stereo: false,
-});
-
 window.addEventListener('load', boxRoomTemplate);
 
 //hotspots
