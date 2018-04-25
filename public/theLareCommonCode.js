@@ -11,8 +11,6 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 
 window.addEventListener('load', drawingRoom);
 
-window.addEventListener('load', boxRoomTemplate);
-
 //hotspots
 
 var setReadyEvents = function(event) {
