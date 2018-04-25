@@ -3,6 +3,7 @@ var vRViewPlayer = function(elementIdName, options) {
   return new VRView.Player(elementIdName, options);
 }
 
+//first photosphere --> room
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   image: 'https://c1.staticflickr.com/8/7333/27582563315_b8ce82119a_b.jpg',
   is_stereo: false,
@@ -24,6 +25,7 @@ var boxRoomTemplate = vRViewPlayer('#third-vr-example', {
 
 window.addEventListener('load', boxRoomTemplate);
 
+//hotspots
 
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
