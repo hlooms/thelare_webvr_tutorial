@@ -11,7 +11,7 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 window.addEventListener('load', drawingRoom);
 
 var roomDrawing = vRViewPlayer('#second-vr-example', {
-  image: 'https://i.imgur.com/K239Thk.jpg',
+  image: 'https://photosphereviewer.net/images/demo/demo2_full.jpg',
   is_stereo: false,
 });
 
