@@ -11,7 +11,7 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 window.addEventListener('load', drawingRoom);
 
 var roomDrawing = vRViewPlayer('#second-vr-example', {
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Langkawi_Sky_Bridge_Photosphere.jpg',
+  image: 'https://fscl01.fonpit.de/userfiles/4155894/image/photo-sphere-w628.jpg',
   is_stereo: false,
 });
 
