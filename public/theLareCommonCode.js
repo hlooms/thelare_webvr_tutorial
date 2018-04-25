@@ -18,7 +18,7 @@ var roomDrawing = vRViewPlayer('#second-vr-example', {
 window.addEventListener('load', roomDrawing);
 
 var boxRoomTemplate = vRViewPlayer('#third-vr-example', {
-  image: 'http://25dkd82t2owl3yew6h49ewsh.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/JIC-photo-623x200.jpg',
+  image: 'https://q3fb03rfy3f4ahuzu2uy6e11-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/photosphere-android.jpg',
   is_stereo: false,
 });
 
