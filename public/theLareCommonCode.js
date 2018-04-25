@@ -24,6 +24,7 @@ var boxRoomTemplate = vRViewPlayer('#third-vr-example', {
 
 window.addEventListener('load', boxRoomTemplate);
 
+
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
 
